@@ -1,0 +1,15 @@
+{
+  "name": "nuclear-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that integrates C++ for attacks and Python for automation tasks.",
+  "main": "nuclear.py",
+  "scripts": {
+    "start": "python3 nuclear.py"
+  },
+  "dependencies": {
+    "telebot": "^0.0.4",
+    "pymongo": "^4.0.2",
+    "aiohttp": "^3.8.1"
+  },
+  "license": "MIT"
+}
